@@ -1,0 +1,16 @@
+#contain{
+    background-color: black;
+    /* padding: 70px; */
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: ;
+}
+.box{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
