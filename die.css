@@ -1,0 +1,48 @@
+header {
+  position: fixed;
+  background-color: white;
+  padding: 10px;
+outline: auto;
+  top: 0;
+  width: 100%;
+}
+body {
+  margin: 0;
+}
+.smal {
+  height: 30px;
+  width: 30px;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+}
+.gap {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+#title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  height: 50px;
+  
+}
+#the {
+  object-fit: fill;
+  margin-top: 30px;
+  height: 800px;
+}
+.sall {
+  width: 50%;
+}
+#salls{
+    display: flex;
+    justify-content: space-evenly;
+}
+#blac{
+  text-decoration: none;
+  color: black;
+}
