@@ -1,0 +1,160 @@
+html {
+  background-color: aliceblue;
+}
+.header {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+  height: 90px;
+  top: 0;
+  z-index: 1;
+}
+#look {
+  object-fit: cover;
+}
+body {
+  margin: 0%;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(127, 173, 226);
+}
+.info {
+  text-decoration: none;
+  size: 50px;
+}
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.person {
+  margin-right: 2px;
+  color: black;
+}
+#tinh {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+#push {
+  display: flex;
+  margin-top: 10px;
+}
+
+.margin {
+  margin-top: 75px;
+}
+#logo {
+  margin: 10%;
+}
+.icon {
+  margin: 10%;
+}
+.icon :hover {
+  background-color: rgba(240, 255, 255, 0);
+  transform: scale(1);
+  border-radius: 100%;
+}
+
+#rel {
+  position: relative;
+}
+#abs {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-size: xx-large;
+  left: 30px;
+}
+
+h1 {
+  margin: 4px;
+  text-align: center;
+  font-family: "Anton SC", sans-serif;
+}
+p {
+  text-align: center;
+}
+#shopping {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  border-radius: 35%;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+}
+.button :hover {
+  background-color: gray;
+  border-radius: 35%;
+  width: max-content;
+  height: max-content;
+}
+p {
+  margin-bottom: 40px;
+}
+a {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+h6 {
+  margin: 0;
+}
+#containbig {
+  display: flex;
+
+  justify-content: center;
+}
+
+.shop-img {
+  width: 50vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img {
+  width: 45vw;
+}
+@media screen and (max-width: 480px) {
+  html {
+    width: 100vw;
+  }
+  .header {
+    width: 430px;
+  }
+
+  .card-img {
+    width: 100vw;
+  }
+  #shopping {
+    flex-direction: column;
+  }
+  #abs {
+    font-size: medium;
+  }
+  #look {
+    width: 100vw;
+    height: 50vw;
+  }
+  h3 {
+    margin: 0;
+  }
+  h1 {
+    margin: 2px;
+  }
+  #logo {
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+  }
+}

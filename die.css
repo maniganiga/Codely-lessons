@@ -1,8 +1,8 @@
 header {
   position: fixed;
   background-color: white;
-  padding: 10px;
-outline: auto;
+  padding: 0px;
+  outline: auto;
   top: 0;
   width: 100%;
 }
@@ -12,37 +12,51 @@ body {
 .smal {
   height: 30px;
   width: 30px;
+  margin-right: 2px;
 }
 div {
   display: flex;
   justify-content: space-between;
 }
-.gap {
-  display: flex;
-  justify-content: space-around;
-  gap: 15px;
-}
+
+
 #title {
   text-align: center;
   background-color: black;
   color: white;
-  margin: 0;
+ margin-bottom: 20px;
   height: 50px;
-  
+  padding: 20px;
+  width: 100%;
+margin: 0;
 }
 #the {
-  object-fit: fill;
+
   margin-top: 30px;
   height: 800px;
 }
 .sall {
   width: 50%;
-}
-#salls{
-    display: flex;
-    justify-content: space-evenly;
+  height: 500px;
+  position: absolute;
 }
 #blac{
   text-decoration: none;
-  color: black;
+  display: flex;
+  justify-content: center;
 }
+
+.abs{
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+}
+#salls{
+  display: flex;
+  justify-content: center;
+}
+.smal{
+  display: flex;
+  justify-content:end ;
+}
+
