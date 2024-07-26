@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: aqua;
+  height: 56px;
+  margin: 0;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  /* padding: 16px; */
+  /* display: flex;
+  justify-content: space-between; */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+#logon {
+  height: 20;
+  width: 90px;
+  padding: 15px;
+}
+#menu {
+  padding: 15px;
+}
+
+#searchbar {
+  /* width: 400px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  margin-top: 0px;
+  outline: auto;
+
+  /* outline: auto; */
+  height: 30px;
+  border-radius: 15px;
+}
+#glas {
+  border-radius: 15px;
+}
+#mic {
+  border-radius: 100%;
+  background-color: aliceblue;
+  outline: auto;
+  outline-color: black;
+  padding: 8px;
+  margin-left: 10px;
+}
+#searchin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  margin: 0%;
+}
+#search {
+  width: 400px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0px;
+  background-color: aliceblue;
+  margin: 0;
+}
+#acc {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: aliceblue;
+  outline-color: black;
+  height: 40px;
+  outline: auto;
+  width: 80px;
+}
+#account {
+  display: flex;
+  align-items: center;
+  /* padding-left: 100px; */
+  padding-right: 40px;
+}
+.headcont {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  margin: 0%;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#side {
+  width: 180px;
+  height: 100vw;
+  background-color: blueviolet;
+}
+#video {
+  width: 100vw;
+  height: 100vw;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+#filter {
+  margin-top: 58px;
+  width: 100%;
+  height: 30px;
+  background-color: aliceblue;
+}
