@@ -5,7 +5,7 @@ body {
 header {
   position: fixed;
   width: 100vw;
-  background-color: aqua;
+  background-color: white;
   height: 56px;
   margin: 0;
   /* padding-left: 16px;
@@ -32,7 +32,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: aliceblue;
+  background-color: white;
   margin-top: 0px;
   outline: auto;
 
@@ -45,7 +45,7 @@ header {
 }
 #mic {
   border-radius: 100%;
-  background-color: aliceblue;
+  background-color: white;
   outline: auto;
   outline-color: black;
   padding: 8px;
@@ -63,14 +63,14 @@ header {
   height: 30px;
   border-radius: 15px;
   padding: 0px;
-  background-color: aliceblue;
+  background-color: white;
   margin: 0;
 }
 #acc {
   display: flex;
   align-items: center;
   border-radius: 50px;
-  background-color: aliceblue;
+  background-color: white;
   outline-color: black;
   height: 40px;
   outline: auto;
@@ -94,20 +94,111 @@ main {
   justify-content: center;
 }
 #side {
-  width: 180px;
+  width: 250px;
   height: 100vw;
-  background-color: blueviolet;
+  background-color: white;
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+}
+.sidest {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+/* .sidest :hover {
+  border-radius: 10px;
+  outline-color: rgb(221, 221, 221);
+  outline: auto;}
+ */
+#top {
+  margin-bottom: 20px;
+}
+#mid {
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+#anotheracc {
+  margin: 6px;
+  width: 80px;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  outline: auto;
+}
+#tit {
+  margin: 0%;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.sidecont {
+  width: 30px;
+  height: 30px;
+  margin: 4px;
 }
 #video {
   width: 100vw;
   height: 100vw;
-  background-color: aquamarine;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 #filter {
   margin-top: 58px;
   width: 100%;
-  height: 30px;
-  background-color: aliceblue;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fileter {
+  border-radius: 5px;
+  outline-color: rgb(204, 204, 204);
+  outline: 2px;
+  background-color: rgb(204, 204, 204);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.videos {
+  width: 33%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.desc {
+  display: flex;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+.video desc {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.profilepic {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 25px;
+}
+.thumbnail {
+  width: 100%;
+  height: 210px;
+  border-radius: 20px;
+  outline: auto;
+}
+#alg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
