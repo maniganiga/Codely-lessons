@@ -1,8 +1,8 @@
-html {
+/* html {
   /* font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal; */
-}
+/* } */
 body {
   margin: 0;
 
@@ -245,11 +245,11 @@ a {
 a :hover {
   background-color: rgb(214, 214, 214);
 }
-.buttin/* #buttion {
+/* .buttin/* #buttion {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
 #buttion :hover {
   background-color: rgb(224, 224, 224);
-} */;
+} */
