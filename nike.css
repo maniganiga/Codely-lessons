@@ -84,19 +84,19 @@ p {
   justify-content: space-around;
 }
 .button {
-  border-radius: 35%;
+  border-radius: 25px;
   color: white;
   background-color: black;
   text-decoration: none;
-  width: max-content;
-  height: max-content;
-  padding: 10px;
+  width: 100px;
+  padding: 0;
 }
 .button :hover {
   background-color: gray;
-  border-radius: 35%;
-  width: max-content;
-  height: max-content;
+  border-radius: 25px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 p {
   margin-bottom: 40px;

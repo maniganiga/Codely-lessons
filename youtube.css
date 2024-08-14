@@ -181,6 +181,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
 .fileter {
   border-radius: 10px;
@@ -253,3 +254,33 @@ a :hover {
 #buttion :hover {
   background-color: rgb(224, 224, 224);
 } */
+@media screen and (max-width: 430px) {
+  #side {
+    width: 0px;
+    height: 0px;
+  }
+  .headcont {
+    padding-right: 0px;
+  }
+  #acc {
+    width: 0px;
+    height: 0px;
+  }
+  .sidecont {
+    width: 0px;
+    height: 0px;
+  }
+  .sidest {
+    width: 0px;
+    height: 0px;
+  }
+  .container {
+    width: 100%;
+  }
+  #searchin {
+    width: 170px;
+  }
+  #searchbar {
+    width: 170px;
+  }
+}
