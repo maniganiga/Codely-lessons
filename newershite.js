@@ -1,10 +1,10 @@
-// const name = 'Enkhmunkh'
-// const age ='16'
+const name = 'Enkhmunkh'
+const age ='16'
 
 
 
 
-// console.log('Sain baina uu namaig ' + name + ' bi ' +age+ ' nastai.');
+console.log('Sain baina uu namaig ' + name + '  gedeg . Bi ' +age+ ' nastai.');
 
 // console.log('hello','string')
 // console.log(true,  )
