@@ -1,14 +1,25 @@
 body {
   margin: 0;
 }
-#nigger {
+html {
+  background-color: black;
+  /* z-index: 1; */
+}
+#taint {
+  position: absolute;
+  height: 300px;
+  width: 100vw;
+}
+#tainter {
+  position: relative;
+  left: 0px;
+  bottom: 310px;
+}
+#nigafood {
   width: 400px;
   height: 200px;
-
-  margin-left: 200px;
-  object-fit: contain;
 }
-#realnigger {
-  width: 200px;
-  height: 200px;
+#realrnigger {
+  width: 100vw;
+  height: 300px;
 }
