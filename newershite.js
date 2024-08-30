@@ -64,81 +64,130 @@
 
 // 2ND HICHEEL
 
-let a =1
-let b = 78
-if (a>b) {
-    console.log('a is more');
+// let a =1
+// let b = 78
+// if (a>b) {
+//     console.log('a is more');
     
-} else {
-    console.log('b is more');
-}
+// } else {
+//     console.log('b is more');
+// }
 
-let x = 5781
-if (x%2===0) {
-    console.log('is even');
+// let x = 5781
+// if (x%2===0) {
+//     console.log('is even');
     
-} else {
-console.log('is odd');
-}
+// } else {
+// console.log('is odd');
+// }
 
-let newpassword= '69'
-let confirmnewpassword= '69'
-if (newpassword===confirmnewpassword) {
-    console.log('password passed');
+// let newpassword= '69'
+// let confirmnewpassword= '69'
+// if (newpassword===confirmnewpassword) {
+//     console.log('password passed');
     
-} else {
-    console.log('denied pass');
-}
-let grade = '0'
-if (grade>=90) {
-    console.log("a");
-}else if (grade<=89 &&grade >=80){
-    console.log('b');
+// } else {
+//     console.log('denied pass');
+// }
+// let grade = '0'
+// if (grade>=90) {
+//     console.log("a");
+// }else if (grade<=89 &&grade >=80){
+//     console.log('b');
     
-}
-else if (grade<=79 &&grade>=70){
-    console.log('c');
+// }
+// else if (grade<=79 &&grade>=70){
+//     console.log('c');
     
-}
-else if (grade<=69 &&grade>=60){
-    console.log('d');
+// }
+// else if (grade<=69 &&grade>=60){
+//     console.log('d');
     
-}
-else {
-    console.log('f');
+// }
+// else {
+//     console.log('f');
     
-}
+// }
 
-let piecofshitnumber = "shd"
-if (piecofshitnumber%3===0 && piecofshitnumber%5===0) {
-    console.log('shitzngiggles');
+// let piecofshitnumber = "shd"
+// if (piecofshitnumber%3===0 && piecofshitnumber%5===0) {
+//     console.log('shitzngiggles');
     
-} 
-      else if (piecofshitnumber%3===0 && piecofshitnumber%5>=1) {
-      console.log('shitz');
+// } 
+//       else if (piecofshitnumber%3===0 && piecofshitnumber%5>=1) {
+//       console.log('shitz');
     
-}
-else if (piecofshitnumber%3>=1 && piecofshitnumber%5===0) {
-    console.log('giggles');
+// }
+// else if (piecofshitnumber%3>=1 && piecofshitnumber%5===0) {
+//     console.log('giggles');
      
- }
-else if (piecofshitnumber%3>=1 && piecofshitnumber%5>=1) {
-    console.log('buuz');
+//  }
+// else if (piecofshitnumber%3>=1 && piecofshitnumber%5>=1) {
+//     console.log('buuz');
      
- }
- else {
-    console.log('gigglesnshitz');
+//  }
+//  else {
+//     console.log('gigglesnshitz');
     
- }
- let fastnfurious = 1
- let fastnfuriousspeed= 80
- let speedanswer = (fastnfurious-fastnfuriousspeed)/5
- console.log(speedanswer);
+//  }
+//  let fastnfurious = 1
+//  let fastnfuriousspeed= 80
+//  let speedanswer = (fastnfurious-fastnfuriousspeed)/5
+//  console.log(speedanswer);
  
- if (speedanswer >=5) {
-    console.log('your license is revoked');
+//  if (speedanswer >=5) {
+//     console.log('your license is revoked');
       
- } else {
-    console.log('you good fam ');
+//  } else {
+//     console.log('you good fam ');
     
- }
+//  }
+
+// 3nd HICHEEL
+// let w =  prompt('ta too bichnuu')
+// for (let i = 1; i <= w; i = i +1) {
+// console.log('Codely N' +i);
+// }
+// console.log('done');
+
+// let n = prompt('Ta number put it hii')
+// for (let i = n; i >=1; i--) {
+//     console.log(i);
+    
+// }
+// let n = prompt('number')
+// let nilber = 0
+// for (let i = 1; i <=n ; i= i +1) {
+// nilber+= i ;
+//  console.log(nilber);
+ 
+// }
+// alert(nilber)
+ 
+// let n=prompt("number please")
+// let niilber = 0 
+// for (let i = 1; i <= n ; i++) { 
+//   if (i%2==0) {
+//     niilber += i
+//   }
+// console.log(niilber);
+
+// }
+// alert ( niilber)
+
+// let n=prompt("number please")
+// let nliber=0
+// for (let i = 1; i <= n; i++){
+
+// if (i%3==0 || i%5==0) {
+//     nliber += i
+// } 
+// console.log(nliber);
+
+//     }
+// alert(
+//     nliber
+// )
+
+// 4rd hicheel?
+
