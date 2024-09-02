@@ -19,6 +19,9 @@ html {
   width: 400px;
   height: 200px;
 }
+:hover #nigafood {
+  transform: rotate();
+}
 #realrnigger {
   width: 100vw;
   height: 300px;

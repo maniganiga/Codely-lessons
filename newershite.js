@@ -191,3 +191,48 @@
 
 // 4rd hicheel?
 
+// for (let i = 0; i <= 3; i=i+1) {
+// if (i===2) 
+//     break;
+// console.log(i);
+// }
+
+// for (let i = 0; i <= 3; i=i+1) {
+//     if (i===2) 
+//         continue;
+//     console.log(i);
+//     }
+// let n = prompt('word')
+// for (let i = 1; i <=n; i++) {
+//      if (i%3==0) 
+//     continue;
+// console.log(i);
+
+// }
+// let n = prompt('number')
+// let urjver = 1
+// for (let i = 1; i <=n; i=i+1) {
+//     urjver=urjver*i;
+//     console.log(i);
+    
+// }
+// console.log(urjver);
+// alert(urjver)
+// let n = prompt('number')
+// let s = "*"
+// for (let i = 1; i <=n; i++) {
+//     console.log(s);
+//     s = s + "*"
+// }
+let n = prompt('number')
+
+for (let i = 2; i <=n; i++) {
+
+   if (i/2==1 ||i%2==1) {
+    console.log(i);
+ }  
+ else if ( i/3==0 ){
+    console.log(i);
+    
+ }
+}
