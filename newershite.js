@@ -49,7 +49,7 @@
 // let g=too%10;
 // console.log('g='+g);
 
-// // 30 
+// // 30
 // let h=too%100-g;
 // console.log('h='+h);
 
@@ -68,7 +68,7 @@
 // let b = 78
 // if (a>b) {
 //     console.log('a is more');
-    
+
 // } else {
 //     console.log('b is more');
 // }
@@ -76,7 +76,7 @@
 // let x = 5781
 // if (x%2===0) {
 //     console.log('is even');
-    
+
 // } else {
 // console.log('is odd');
 // }
@@ -85,7 +85,7 @@
 // let confirmnewpassword= '69'
 // if (newpassword===confirmnewpassword) {
 //     console.log('password passed');
-    
+
 // } else {
 //     console.log('denied pass');
 // }
@@ -94,53 +94,53 @@
 //     console.log("a");
 // }else if (grade<=89 &&grade >=80){
 //     console.log('b');
-    
+
 // }
 // else if (grade<=79 &&grade>=70){
 //     console.log('c');
-    
+
 // }
 // else if (grade<=69 &&grade>=60){
 //     console.log('d');
-    
+
 // }
 // else {
 //     console.log('f');
-    
+
 // }
 
 // let piecofshitnumber = "shd"
 // if (piecofshitnumber%3===0 && piecofshitnumber%5===0) {
 //     console.log('shitzngiggles');
-    
-// } 
+
+// }
 //       else if (piecofshitnumber%3===0 && piecofshitnumber%5>=1) {
 //       console.log('shitz');
-    
+
 // }
 // else if (piecofshitnumber%3>=1 && piecofshitnumber%5===0) {
 //     console.log('giggles');
-     
+
 //  }
 // else if (piecofshitnumber%3>=1 && piecofshitnumber%5>=1) {
 //     console.log('buuz');
-     
+
 //  }
 //  else {
 //     console.log('gigglesnshitz');
-    
+
 //  }
 //  let fastnfurious = 1
 //  let fastnfuriousspeed= 80
 //  let speedanswer = (fastnfurious-fastnfuriousspeed)/5
 //  console.log(speedanswer);
- 
+
 //  if (speedanswer >=5) {
 //     console.log('your license is revoked');
-      
+
 //  } else {
 //     console.log('you good fam ');
-    
+
 //  }
 
 // 3nd HICHEEL
@@ -153,20 +153,20 @@
 // let n = prompt('Ta number put it hii')
 // for (let i = n; i >=1; i--) {
 //     console.log(i);
-    
+
 // }
 // let n = prompt('number')
 // let nilber = 0
 // for (let i = 1; i <=n ; i= i +1) {
 // nilber+= i ;
 //  console.log(nilber);
- 
+
 // }
 // alert(nilber)
- 
+
 // let n=prompt("number please")
-// let niilber = 0 
-// for (let i = 1; i <= n ; i++) { 
+// let niilber = 0
+// for (let i = 1; i <= n ; i++) {
 //   if (i%2==0) {
 //     niilber += i
 //   }
@@ -181,7 +181,7 @@
 
 // if (i%3==0 || i%5==0) {
 //     nliber += i
-// } 
+// }
 // console.log(nliber);
 
 //     }
@@ -192,19 +192,19 @@
 // 4rd hicheel?
 
 // for (let i = 0; i <= 3; i=i+1) {
-// if (i===2) 
+// if (i===2)
 //     break;
 // console.log(i);
 // }
 
 // for (let i = 0; i <= 3; i=i+1) {
-//     if (i===2) 
+//     if (i===2)
 //         continue;
 //     console.log(i);
 //     }
 // let n = prompt('word')
 // for (let i = 1; i <=n; i++) {
-//      if (i%3==0) 
+//      if (i%3==0)
 //     continue;
 // console.log(i);
 
@@ -214,7 +214,7 @@
 // for (let i = 1; i <=n; i=i+1) {
 //     urjver=urjver*i;
 //     console.log(i);
-    
+
 // }
 // console.log(urjver);
 // alert(urjver)
@@ -224,15 +224,38 @@
 //     console.log(s);
 //     s = s + "*"
 // }
-let n = prompt('number')
+// let n = Number(prompt('number'))
 
-for (let i = 2; i <=n; i++) {
+// for (let i = 2; i < n; i+=1) {
+//    let isPrime = true
 
-   if (i/2==1 ||i%2==1) {
-    console.log(i);
- }  
- else if ( i/3==0 ){
-    console.log(i);
-    
- }
-}
+//    for (let a = 2; a < i; a++) {
+//       if (i % a == 0) {
+//          isPrime = false
+//          break
+//       }
+//    }
+//  if (isPrime) {
+//    console.log(i)
+//  }
+
+// }
+// let n = Number(prompt("numb"));
+// for (let i = 2; i < n; i++) {
+//   let isPrime = true;
+//   for (let a = 2; a < i; a++) {
+//     if (i % a == 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
+//   if (isPrime) {
+//     console.log(i);
+//   }
+// }
+// 5rd h=cheel
+let numbs = [1, 2, 3];
+numbs.push(4);
+
+numbs.indexOf(3);
+console.log(numbs);
