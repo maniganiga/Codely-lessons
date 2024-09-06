@@ -130,18 +130,16 @@
 //     console.log('gigglesnshitz');
 
 //  }
-//  let fastnfurious = 1
-//  let fastnfuriousspeed= 80
-//  let speedanswer = (fastnfurious-fastnfuriousspeed)/5
-//  console.log(speedanswer);
+// let fastnfurious = Number(prompt("numb"));
+// let fastnfuriousspeed = 80;
+// let speedanswer = (fastnfurious - fastnfuriousspeed) / 5;
+// console.log(speedanswer);
 
-//  if (speedanswer >=5) {
-//     console.log('your license is revoked');
-
-//  } else {
-//     console.log('you good fam ');
-
-//  }
+// if (speedanswer >= 5) {
+//   console.log("your license is revoked");
+// } else {
+//   console.log("you good fam ");
+// }
 
 // 3nd HICHEEL
 // let w =  prompt('ta too bichnuu')
@@ -254,8 +252,57 @@
 //   }
 // }
 // 5rd h=cheel
-let numbs = [1, 2, 3];
-numbs.push(4);
+// let numbs = [1, 2, 3];
+// numbs.push(4);
+// console.log(numbs);
 
-numbs.indexOf(3);
-console.log(numbs);
+// // apple , orange , kiwi
+
+// bold,bataa,nomin
+
+// 10,20,30,35
+
+// let fruits = prompt("gimme fruits");
+// let array = fruits.split(",");
+// console.log(array);
+
+// let fruits = prompt("gimme fruits");
+// let array = fruits.split(",");
+// array.push("banana");
+// // console.log(array);
+
+// let arraya = [];
+// arraya.push(1, 2, 3);
+// console.log(arraya);
+
+// let ayay = prompt("gimme names and ill give you blood");
+// let arriye = ayay.split(",");
+// console.log(arriye);
+// let blood = arriye.indexOf("nomin");
+// console.log(blood);
+// alert(blood);
+
+// let arriiya = prompt("numbers");
+// let ariri = arriiya.split(",");
+// console.log(ariri);
+// let death = ariri.indexOf("40");
+// if (death == -1) {
+//   console.log(death);
+
+//   alert("none");
+// } else {
+//   console.log(death);
+
+//   alert("isso");
+// }
+
+// let arriiya = prompt("numbers");
+// let ariri = arriiya.split(",");
+// console.log(ariri);
+// let forty = prompt("lemme find a num");
+// let death = ariri.indexOf(forty);
+// if (death == -1) {
+//   alert("none");
+// } else {
+//   alert("isso");
+// }
