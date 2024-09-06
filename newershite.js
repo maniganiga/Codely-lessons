@@ -262,6 +262,8 @@
 
 // 10,20,30,35
 
+// yellow,red,green,blue
+
 // let fruits = prompt("gimme fruits");
 // let array = fruits.split(",");
 // console.log(array);
@@ -306,3 +308,11 @@
 // } else {
 //   alert("isso");
 // }
+
+// let color = prompt("gogogo go pop go");
+// let colors = color.split(",");
+// console.log(colors);
+// colors.pop();
+// console.log(colors);
+
+// alert(colors);
