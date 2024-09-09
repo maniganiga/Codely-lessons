@@ -258,11 +258,15 @@
 
 // // apple , orange , kiwi
 
+// apple,banana,orange,grape
+
 // bold,bataa,nomin
 
 // 10,20,30,35
 
 // yellow,red,green,blue
+
+// zebra,lion,hippo,giraffe,penguin
 
 // let fruits = prompt("gimme fruits");
 // let array = fruits.split(",");
@@ -316,3 +320,64 @@
 // console.log(colors);
 
 // alert(colors);
+// let zoo = prompt("enter animals");
+// let madagascar = zoo.split(",");
+// console.log(zoo);
+// madagascar.splice(0, 2);
+// alert(madagascar);
+// console.log(madagascar);
+
+// let nump = prompt("enter numbers");
+// let numm = nump.split(",");
+// numm.splice(0, 5);
+// console.log(numm);
+// alert(numm);
+
+// let staray = prompt("enter fruits");
+// let bowl = staray.split(",");
+// console.log(bowl);
+// let slicedfruit = bowl.slice(1, 4);
+// console.log(slicedfruit);
+// alert(slicedfruit);
+
+// const numferr = [1, 2, 3];
+// const fo = 4;
+// let newnumbers = [...numferr, fo];
+// console.log(newnumbers);
+// alert(newnumbers);
+
+// let cuh = prompt("number");
+// let pluh = prompt("whatever");
+// let bruh = cuh.split(",");
+// let brut = pluh.split(",");
+// console.log(bruh, brut);
+// let all = [...bruh, ...brut];
+// console.log(all);
+// alert(all);
+// 6rd hicheel
+// const cars = ["Toyota", "Honda", "Ford", "Chevrolet", "BMW", "Mercedes-Benz"];
+// for (let i = 0; i < cars.length; i++) {
+//   cars[i] += "-Car";
+//   console.log(cars[i]);
+// }
+
+// let numbers = prompt("waahh");
+// let nul = numbers.split(",");
+// console.log(nul);
+// for (let i = 1; i <= nul.length; i++) {
+//   console.log(i);
+// }
+
+let ay = prompt("numbers");
+let yaa = ay.split(",");
+let ugh = [];
+console.log(yaa);
+for (let i = 0; i <= yaa.length; i++) {
+  if (yaa[i] % 3 === 0) {
+    console.log(i);
+    ugh.push(yaa[i]);
+    console.log(ugh);
+  }
+}
+if (ugh.length == 0) alert("no number divisible");
+else alert(ugh);
