@@ -368,16 +368,64 @@
 //   console.log(i);
 // }
 
-let ay = prompt("numbers");
-let yaa = ay.split(",");
-let ugh = [];
-console.log(yaa);
-for (let i = 0; i <= yaa.length; i++) {
-  if (yaa[i] % 3 === 0) {
-    console.log(i);
-    ugh.push(yaa[i]);
-    console.log(ugh);
-  }
-}
-if (ugh.length == 0) alert("no number divisible");
-else alert(ugh);
+// let ay = prompt("numbers");
+// let yaa = ay.split(",");
+// let ugh = [];
+// console.log(yaa);
+// for (let i = 0; i <= yaa.length; i++) {
+//   if (yaa[i] % 3 === 0) {
+//     console.log(i);
+//     ugh.push(yaa[i]);
+//     console.log(ugh);
+//   }
+// }
+// if (ugh.length == 0) alert("no number divisible");
+// else alert(ugh);
+
+// let pro = prompt("enter numbers");
+// let splitter = pro.split(",");
+// let answer = [];
+// console.log(splitter);
+// for (let i = 0; i <= splitter.length; i++) {
+//   if (splitter[i] % 3 == 0 || splitter[i] % 5 == 0) {
+//     continue;
+//   } else {
+//     console.log(i);
+//     answer.push(splitter[i]);
+//     console.log(answer);
+//   }
+// }
+// if (answer.length == 0) {
+//   alert("none");
+// } else alert(answer);
+let word = prompt("ug");
+let alph = [
+  0,
+  a,
+  b,
+  c,
+  d,
+  e,
+  f,
+  g,
+  h,
+  i,
+  j,
+  k,
+  l,
+  m,
+  n,
+  o,
+  p,
+  q,
+  r,
+  s,
+  t,
+  u,
+  v,
+  w,
+  x,
+  y,
+  z,
+];
+indexof;
