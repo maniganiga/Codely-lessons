@@ -398,34 +398,75 @@
 // if (answer.length == 0) {
 //   alert("none");
 // } else alert(answer);
-let word = prompt("ug");
-let alph = [
-  0,
-  a,
-  b,
-  c,
-  d,
-  e,
-  f,
-  g,
-  h,
-  i,
-  j,
-  k,
-  l,
-  m,
-  n,
-  o,
-  p,
-  q,
-  r,
-  s,
-  t,
-  u,
-  v,
-  w,
-  x,
-  y,
-  z,
+// let word = prompt("ug");
+// word = word.split("");
+// console.log(word);
+// let alph = [
+//   "+",
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
+
+// let answer = [];
+// for (let i = 0; i < word.length; i++) {
+//   console.log(i);
+
+//   answer.push(alph.indexOf(word[i]));
+// }
+// console.log(answer);
+// alert(answer);
+let letter = prompt("enter grade");
+const grade = [
+  { gradeletter: A, range: 100 && letter <= 90 },
+  { gradeletter: B, range: 89 && letter <= 80 },
+  { gradeletter: C, range: 79 && letter <= 70 },
+  { gradeletter: D, range: 69 && letter <= 60 },
+  { gradeletter: E, range: 59 && letter <= 50 },
+  { gradeletter: F, range: letter <= 49 },
 ];
-indexof;
+const students = [
+  { name: "Alice", point: 90 },
+  { name: "Bob", point: 55 },
+  { name: "Charlie", point: 78 },
+  { name: "David", point: 22 },
+  { name: "Eve", point: 68 },
+  { name: "Frank", point: 36 },
+  { name: "Grace", point: 95 },
+  { name: "Hannah", point: 89 },
+  { name: "Ivy", point: 83 },
+  { name: "Jack", point: 41 },
+  { name: "Katie", point: 87 },
+  { name: "Liam", point: 84 },
+  { name: "Mia", point: 79 },
+  { name: "Noah", point: 93 },
+  { name: "Olivia", point: 86 },
+  { name: "Peter", point: 57 },
+  { name: "Quinn", point: 94 },
+  { name: "Ryan", point: 80 },
+  { name: "Sophia", point: 75 },
+  { name: "Tyler", point: 46 },
+];
