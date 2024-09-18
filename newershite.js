@@ -439,34 +439,45 @@
 // }
 // console.log(answer);
 // alert(answer);
-let letter = prompt("enter grade");
-const grade = [
-  { gradeletter: A, range: 100 && letter <= 90 },
-  { gradeletter: B, range: 89 && letter <= 80 },
-  { gradeletter: C, range: 79 && letter <= 70 },
-  { gradeletter: D, range: 69 && letter <= 60 },
-  { gradeletter: E, range: 59 && letter <= 50 },
-  { gradeletter: F, range: letter <= 49 },
-];
-const students = [
-  { name: "Alice", point: 90 },
-  { name: "Bob", point: 55 },
-  { name: "Charlie", point: 78 },
-  { name: "David", point: 22 },
-  { name: "Eve", point: 68 },
-  { name: "Frank", point: 36 },
-  { name: "Grace", point: 95 },
-  { name: "Hannah", point: 89 },
-  { name: "Ivy", point: 83 },
-  { name: "Jack", point: 41 },
-  { name: "Katie", point: 87 },
-  { name: "Liam", point: 84 },
-  { name: "Mia", point: 79 },
-  { name: "Noah", point: 93 },
-  { name: "Olivia", point: 86 },
-  { name: "Peter", point: 57 },
-  { name: "Quinn", point: 94 },
-  { name: "Ryan", point: 80 },
-  { name: "Sophia", point: 75 },
-  { name: "Tyler", point: 46 },
-];
+// let letter = prompt("enter grade");
+// let box = [];
+// let A = letter >= 100 && letter <= 90;
+// let B = letter >= 89 && letter <= 80;
+// let C = letter >= 79 && letter <= 70;
+// let D = letter >= 69 && letter <= 60;
+// let E = letter >= 59 && letter <= 50;
+// let F = letter <= 49;
+// const students = [
+//   { name: "Alice", point: 90 },
+//   { name: "Bob", point: 55 },
+//   { name: "Charlie", point: 78 },
+//   { name: "David", point: 22 },
+//   { name: "Eve", point: 68 },
+//   { name: "Frank", point: 36 },
+//   { name: "Grace", point: 95 },
+//   { name: "Hannah", point: 89 },
+//   { name: "Ivy", point: 83 },
+//   { name: "Jack", point: 41 },
+//   { name: "Katie", point: 87 },
+//   { name: "Liam", point: 84 },
+//   { name: "Mia", point: 79 },
+//   { name: "Noah", point: 93 },
+//   { name: "Olivia", point: 86 },
+//   { name: "Peter", point: 57 },
+//   { name: "Quinn", point: 94 },
+//   { name: "Ryan", point: 80 },
+//   { name: "Sophia", point: 75 },
+//   { name: "Tyler", point: 46 },
+// ];
+// console.log(students);
+
+// if (letter == A && A == students.point) {
+//   box.push(students.name);
+// }
+// console.log(box);
+
+// NEW HICHEEL FUNKTZ
+const lol = () => {
+  console.log("wtf bro");
+};
+lol();
