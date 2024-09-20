@@ -439,14 +439,9 @@
 // }
 // console.log(answer);
 // alert(answer);
-// let letter = prompt("enter grade");
-// let box = [];
-// let A = letter >= 100 && letter <= 90;
-// let B = letter >= 89 && letter <= 80;
-// let C = letter >= 79 && letter <= 70;
-// let D = letter >= 69 && letter <= 60;
-// let E = letter >= 59 && letter <= 50;
-// let F = letter <= 49;
+
+// let letter = prompt("enter grade").toUpperCase();
+
 // const students = [
 //   { name: "Alice", point: 90 },
 //   { name: "Bob", point: 55 },
@@ -459,8 +454,8 @@
 //   { name: "Ivy", point: 83 },
 //   { name: "Jack", point: 41 },
 //   { name: "Katie", point: 87 },
-//   { name: "Liam", point: 84 },
 //   { name: "Mia", point: 79 },
+//   { name: "Liam", point: 84 },
 //   { name: "Noah", point: 93 },
 //   { name: "Olivia", point: 86 },
 //   { name: "Peter", point: 57 },
@@ -470,14 +465,96 @@
 //   { name: "Tyler", point: 46 },
 // ];
 // console.log(students);
-
-// if (letter == A && A == students.point) {
-//   box.push(students.name);
+// let box = [];
+// for (let i = 0; i < students.length; i++) {
+//   if (students[i].point <= 100 && students[i].point >= 90 && letter == "A") {
+//     box.push(students[i].name);
+//   }
 // }
 // console.log(box);
 
-// NEW HICHEEL FUNKTZ
-const lol = () => {
-  console.log("wtf bro");
-};
-lol();
+// let letter = prompt("enter prompt").toUpperCase();
+
+// const students = [
+//   { name: "Alice", point: 90 },
+//   { name: "Bob", point: 55 },
+//   { name: "Charlie", point: 78 },
+//   { name: "David", point: 22 },
+//   { name: "Eve", point: 68 },
+//   { name: "Frank", point: 36 },
+//   { name: "Grace", point: 95 },
+//   { name: "Hannah", point: 89 },
+//   { name: "Ivy", point: 83 },
+//   { name: "Jack", point: 41 },
+//   { name: "Katie", point: 87 },
+//   { name: "Mia", point: 79 },
+//   { name: "Liam", point: 84 },
+//   { name: "Noah", point: 93 },
+//   { name: "Olivia", point: 86 },
+//   { name: "Peter", point: 57 },
+//   { name: "Quinn", point: 94 },
+//   { name: "Ryan", point: 80 },
+//   { name: "Sophia", point: 75 },
+//   { name: "Tyler", point: 46 },
+// ];
+// console.log(students);
+// let box = [];
+// for (let i = 0; i < students.length; i++) {
+//   if (
+//     students[i].point <= 100 &&
+//     students[i].point >= 60 &&
+//     letter == "TENTSSEN"
+//   ) {
+//     box.push(students[i].name);
+//   }
+// }
+// console.l0og(box);
+
+// // NEW HICHEEL FUNKTZ
+
+// const lol = () => {
+//   console.log("wtf bro");
+// };
+// lol();
+
+// const wallahi = (b, c, d) => {
+//   let a = b * c - d;
+//   return a;
+// };
+// console.log(wallahi(5, 10, 3));
+
+// const totaltime = (day, hour) => {
+//   x = day * 24;
+//   return x + hour;
+// };
+// console.log(totaltime(2, 4));
+
+// const bigga = (a, b) => {
+//   if (a < b) {
+//     return b + " bigger too ";
+//   } else if (a > b) {
+//     return a + " bigger too ";
+//   } else;
+//   return "equal";
+// };
+// console.log(bigga(10000000, 1000));
+
+// const area = (l, w) => {
+//   return "Talbai= " + l * w;
+// };
+// console.log(area(20, 30));
+
+// const checkpoint = (score) => {
+//   if (score >= 90) {
+//     return "A";
+//   } else if (score >= 80 && score <= 89) {
+//     return "B";
+//   } else if (score >= 70 && score <= 79) {
+//     return "C";
+//   } else if (score >= 60 && score <= 69) {
+//     return "D";
+//   } else if (score < 60) {
+//     return "F";
+//   }
+// };
+// console.log("SHit is " + checkpoint(50));
