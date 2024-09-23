@@ -558,3 +558,48 @@
 //   }
 // };
 // console.log("SHit is " + checkpoint(50));
+
+// const numbers = [3, 8, 1, 12, 300, 5, 7];
+// let max = numbers[0];
+// const biggestnum = (numbers) => {
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > max) {
+//       max = numbers[i];
+//     }
+//   }
+//   return max;
+// };
+// console.log("Largest number is:", biggestnum(numbers));
+
+// const ogarray = [1, 2, 3, 4, 5];
+
+// const reversal = () => {
+//   pox = [];
+//   for (let i = ogarray.length; i > 0; i--) {
+//     let a = ogarray.pop();
+//     pox.push(a);
+//   }
+//   return pox;
+// };
+// console.log("cursed technique reversal red:", reversal(ogarray));
+
+// function bubbleSort(arr) {
+//   const n = arr.length;
+//   for (let i = 0; i < n; i++) {
+//     for (let j = 0; j < n - 1; j++) {
+//       if (arr[j] > arr[j + 1]) {
+//         // Swap
+//         [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+//       }
+//     }
+//   }
+//   return arr;
+// }
+
+// // Example usage:
+// const unsortedArray = [5, 3, 8, 1, 2, 3, 5];
+// const sortedArray = bubbleSort(unsortedArray);
+
+// console.log(sortedArray); // Output: [1, 2, 3, 3, 5, 5, 8]
+
+const unarray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
