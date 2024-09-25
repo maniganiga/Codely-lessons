@@ -559,9 +559,10 @@
 // };
 // console.log("SHit is " + checkpoint(50));
 
-// const numbers = [3, 8, 1, 12, 300, 5, 7];
-// let max = numbers[0];
+// const numbers = [3, 8, 1, 12, 30, 5, 7];
+
 // const biggestnum = (numbers) => {
+//   let max = numbers[0];
 //   for (let i = 0; i < numbers.length; i++) {
 //     if (numbers[i] > max) {
 //       max = numbers[i];
@@ -602,4 +603,52 @@
 
 // console.log(sortedArray); // Output: [1, 2, 3, 3, 5, 5, 8]
 
-const unarray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+// const unarray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+// const sorter = ()=>{
+// for (let i = 0; i < unarray.length; i++) {
+
+// }
+// return
+// }
+// console.log("Here ya go ",sorter(unarray));
+
+// FUNKTZ 2
+
+// let number = prompt("enter number");
+// const ispalindrome = (number) => {
+//   let num1 = number.split("");
+//   pox = [];
+//   let poxx2 = 0;
+//   for (let i = num1.length; i >= 0; i--) {
+//     let a = num1.pop();
+//     pox.push(a);
+//     poxx2 = pox.join("");
+//   }
+//   if (poxx2 == number) {
+//     alert("is palmimdrome");
+//   } else {
+//     alert("not");
+//   }
+//   return poxx2;
+// };
+// console.log(ispalindrome(number));
+
+// let number = prompt("enter number");
+
+// const ispalindrome = (number) => {
+//   let num1 = number.split("");
+//   let box = [];
+//   for (let i = num1.length; i >= 0; i--) {
+//     let a = num1[i];
+//     console.log(a);
+//     box.push(a);
+//   }
+//   f = box.join("");
+//   if (f == number) {
+//     alert("is palindrome");
+//   } else {
+//     alert("not");
+//   }
+//   return f;
+// };
+// console.log(ispalindrome(number));
