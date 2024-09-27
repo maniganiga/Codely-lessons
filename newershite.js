@@ -633,25 +633,25 @@
 // };
 // console.log(ispalindrome(number));
 
-// let number = prompt("enter number");
+let number = prompt("enter number");
 
-// const ispalindrome = (number) => {
-//   let num1 = number.split("");
-//   let box = [];
-//   for (let i = num1.length; i >= 0; i--) {
-//     let a = num1[i];
-//     console.log(a);
-//     box.push(a);
-//   }
-//   f = box.join("");
-//   if (f == number) {
-//     alert("is palindrome");
-//   } else {
-//     alert("not");
-//   }
-//   return f;
-// };
-// console.log(ispalindrome(number));
+const ispalindrome = (number) => {
+  let num1 = number.split("");
+  let box = [];
+  for (let i = num1.length; i >= 0; i--) {
+    let a = num1[i];
+    console.log(a);
+    box.push(a);
+  }
+  f = box.join("");
+  if (f == number) {
+    alert("is palindrome");
+  } else {
+    alert("not");
+  }
+  return f;
+};
+console.log(ispalindrome(number));
 
 let n = prompt("give number");
 const tilpalindrome = (n) => {
