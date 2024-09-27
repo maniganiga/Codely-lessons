@@ -625,7 +625,7 @@
 //     poxx2 = pox.join("");
 //   }
 //   if (poxx2 == number) {
-//     alert("is palmimdrome");
+//     alert("is palindrome");
 //   } else {
 //     alert("not");
 //   }
@@ -652,3 +652,24 @@
 //   return f;
 // };
 // console.log(ispalindrome(number));
+
+let n = prompt("give number");
+const tilpalindrome = (n) => {
+  for (let i = 0; i < n; i++) {
+    // ?
+    let nlit = i.split("");
+    let box = [];
+    for (let j = i.length; j >= 0; j--) {
+      box.push(nlit);
+    }
+    box = box.join("");
+    if ((box = i)) {
+      console.log(box);
+    } else {
+      continue;
+    }
+    return box;
+  }
+  return box;
+};
+console.log(tilpalindrome(n));
